@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       resources :cpfl_points
       resources :cpfl_rewards
       resources :invoices
+      resources :cards
     end
   end
 end
