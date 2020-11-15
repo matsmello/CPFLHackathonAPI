@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_15_195258) do
+ActiveRecord::Schema.define(version: 2020_11_15_200049) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cards", force: :cascade do |t|
+    t.integer "security_code"
+    t.string "number"
+    t.date "valid_thru"
+    t.date "member_since"
+    t.string "banner"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "chat_bot_messages", force: :cascade do |t|
     t.string "title"
@@ -32,6 +42,14 @@ ActiveRecord::Schema.define(version: 2020_11_15_195258) do
     t.string "title"
     t.text "description"
     t.integer "points"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "invoices", force: :cascade do |t|
+    t.float "total"
+    t.text "code"
+    t.boolean "paid", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

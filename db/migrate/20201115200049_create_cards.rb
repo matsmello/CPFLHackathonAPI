@@ -5,6 +5,7 @@ class CreateCards < ActiveRecord::Migration[6.0]
       t.string :number
       t.date :valid_thru
       t.date :member_since
+      t.string :banner
 
       t.timestamps
     end
