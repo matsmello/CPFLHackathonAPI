@@ -1,0 +1,2 @@
+class CpflReward < ApplicationRecord
+end
