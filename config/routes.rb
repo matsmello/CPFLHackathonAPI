@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
       resources :chat_bot_messages
       resources :users
+      resources :cpfl_points
     end
   end
 end

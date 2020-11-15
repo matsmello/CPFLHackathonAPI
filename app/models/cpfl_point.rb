@@ -1,0 +1,2 @@
+class CpflPoint < ApplicationRecord
+end
