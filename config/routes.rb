@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       resources :users
       resources :cpfl_points
       resources :cpfl_rewards
+      resources :invoices
     end
   end
 end
