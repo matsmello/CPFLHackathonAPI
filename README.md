@@ -1,24 +1,19 @@
-# README
+# App CPFL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Desafio
 
-Things you may want to cover:
+Em um cenário de estabilidade econômica como podemos gerar mais valor para nossos
+serviços de modo que conseguimos reduzir o volume de inadimplência?
 
-* Ruby version
+Para entregar mais valor para nosso cliente, temos o desafio e digitalizar muitos dos nosso
+serviços, e durante a pandemia essa realidade só ficou cada vez mais visível.
 
-* System dependencies
+## Solução
 
-* Configuration
+Com base nesse desafio, criamos uma solução modifica a aparecia do app da cpfl, e adiciona novas opções que podem atrair mais clientes para o app. Adicionamos opções como:
 
-* Database creation
+## Tecnologias
 
-* Database initialization
+No backend desta aplicação usamos como tecnologia:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby on Rails
